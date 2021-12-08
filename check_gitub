@@ -1,0 +1,46 @@
+			  GIT-CHEATSHEET
+Download:-  https://git-scm.com/downloads
+or
+linux:-(local machine)
+$ sudo su
+# yum update -y 
+# yum install git -y
+# git --version
+# git config --global user.name "apeksha4692"
+# git config --global user.email "apkesha.infograins@gmail.com"
+# which git
+
+
+Lab:-(local machine)
+# mkdir mumbaigit	(To create directory)
+# cd mumbaigit		(To enter directory)
+# git init		(to initialize folder as a Repository)	
+# cat >any filename 	(To creating a file for demo)
+# git status		(To check status)
+# git add . 		(To Add all data on current directory)
+# git add <filename/path to file> (single or space separated multiple file )
+# git status		(To check status)
+# git commit -m "write something" 	(for commit)
+# git status 		(check status)
+# git log		(To check log)	  
+# git show <commit id>	(To check all changes
+
+# git remote add origin <github repo URL>	(to add URL as a default for the current repo)
+# git push -u origin <Branch name> 		(Branch name can be "main or anything" )
+[now enter username & Personal access token]
+Personal access token path:- github-console > setting > Developer setting > Personal access tokens > Generate token  (Only for Linux)
+# git status 
+
+Download any repo from github.com to our local machine :- 
+1. Go to the particular repo in github.com
+2. Copy the URL from the CODE button (https URL)
+3. Now create a new folder on your local machine &  go inside the folder 
+4. Open git bash by right click  
+
+$ sudo git clone <paste the github repo URL>
+
+For pulling new changes write :-
+$ sudo git pull <paste the github repo URL>
+
+
+
