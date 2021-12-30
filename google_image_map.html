@@ -1,0 +1,34 @@
+<input id="searchTextField" type="text" size="50">
+<input id="address" name="address" value='' type="hidden" placeholder="">
+<div id="google_img">
+	<img src="">
+</div>
+
+<script>
+function initMap() {
+  var input = document.getElementById('searchTextField');
+  var autocomplete = new google.maps.places.Autocomplete(input);
+  console.log(autocomplete);
+  autocomplete.addListener('place_changed', function() {
+    var place = autocomplete.getPlace();
+    var all_images = "";
+    console.log(place);
+   	for(i = 0; i<10; i++){
+   		console.log(i);
+   		all_images += '<img src="'+place.photos[i].getUrl({'maxWidth': 100, 'maxHeight': 100})+'"><br>';
+
+   	}
+   	   		console.log(all_images);
+
+   	document.getElementById("google_img").innerHTML = all_images;
+   
+});
+
+  
+}
+
+
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4sQwpwlT5B2LrUk5FJGUlUcw6JG_TTco&libraries=places&callback=initMap" async defer></script>
