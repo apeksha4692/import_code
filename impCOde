@@ -1,0 +1,189 @@
+1)Calculate Date in jquery
+	var tomorrow = new Date.today().add(i).day();  
+	var dd = String(tomorrow.getDate()).padStart(2, '0');
+	var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = tomorrow.getFullYear();
+
+	var tomorrowD = dd + '/' + mm + '/' + yyyy; //future date
+	var tomorrowDate = yyyy + '/' + mm + '/' + dd; //future date
+
+	/*--------------Start future Date----------------------------*/
+	var future = Date.today().add(i).months();
+	var dd = String(future.getDate()).padStart(2, '0');
+	var mm = String(future.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = future.getFullYear();
+
+	var future = dd + '/' + mm + '/' + yyyy; //future date
+	var futureDate = yyyy + '/' + mm + '/' + dd; //future date
+
+	alert(tomorrowD);
+	alert(future);
+----------------------------------------------------------------------------------
+2)Check validation in blur
+		<input class="form-control phoneno" type="text" placeholder="Mobile No." name="mobile" required data-parsley-required data-  parsley-required-message="Enter Mobile" id="mobile" minlength="10" maxlength="10" data-parsley-type="number" data-parsley-type-message="Only Number Allow" onblur="mustBeValidMobile(this,'errmsg_phoneno')">
+                            <span id="errmsg_phoneno" style="color: red"></span>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	   $('.phoneno').each(function(){
+		$(this).mask('9999999999');
+	    });
+	// ------check mobile number validation----
+	    function mustBeValidMobile(el, msgEl) {
+		if( el.value === '' || el.value === null || el.value === undefined ) {
+		    return;
+		}
+
+		if((el.value).length < 10) {
+		    $(`#${msgEl}`).text('Enter 10 number'); 
+		} else {
+		    $(`#${msgEl}`).text(''); 
+		}
+	    }
+3)Repeat Row
+	  <div class="product-item-box mb-3 add_input_item">
+                           <div class="row">
+                                  <div class="col-md-5 col-sm-12">
+                                     <div class="form-group ">
+                                        <label>Category/Model No.</label>
+                                        <input class="form-control" id="model_category_1" type="text" placeholder="Category/Model No." name="model_category[]" required data-parsley-required data-parsley-required-message="Enter Category/Model No." onkeyUp="checkCategory(this.value,1)">
+                                        <span id="errmsg_category_1" style="color: red"></span>
+                                     </div>
+                                  </div>
+                              
+                                  <div class="col-sm-3">
+                                     <div class="form-group ">
+                                        <label for="exampleTextarea">Image</label>
+                                       <input type="file" class="form-control" id="upload_file" name="images[]" placeholder="Product Image" required data-parsley-required data-parsley-required-message="Product Image">
+                                     </div>
+                                  </div>
+
+                                <div class="col-sm-3 add-btn">
+                                     <label>Action</label>
+
+                                     <input type="button" class="item_add btn btn-primary w-100" value="Add">
+                                   <!-- <button class="btn btn-primary w-100 item_add" type="submit"> <i class="fa fa-plus fa-3x" aria-hidden="true"></i> &nbsp; Add</button> -->
+                                </div>
+                            </div>
+                        </div>
+
+$( document ).ready(function() {
+        $('#branchId').select2();
+        $('#productId').select2();
+        //Add more Image
+        var wrapper1         = $(".add_input_item"); //Fields wrapper
+        var add_button1      = $(".item_add"); //Add button ID
+        
+        var y = 1; //initlal text box count
+        var yy = 1;
+        $(add_button1).click(function(e){ //on add input button click
+            e.preventDefault();
+            y++; //text box increment
+            yy= yy+1; 
+            $(wrapper1).append(`
+               <div class="row ">
+                      <div class="col-md-5 col-sm-12">
+                         <div class="form-group ">
+                            <input class="form-control" id="model_category_`+yy+`" type="text" placeholder="Category/Model No." name="model_category[]" required data-parsley-required data-parsley-required-message="Enter Category/Model No." onkeyUp="checkCategory(this.value,`+yy+`)">
+                             <span id="errmsg_category_`+yy+`" style="color: red"></span>
+                         </div>
+                      </div>
+                  
+                      <div class="col-sm-3">
+                         <div class="form-group ">
+                           <input type="file" class="form-control" id="upload_file" name="images[]"  placeholder="Product Image" required data-parsley-required data-parsley-required-message="Product Image">
+                         </div>
+                      </div>
+
+                    <div class="col-sm-3 add-btn">
+                          <button class="btn btn-danger w-100 remove_field" type="submit"> <i class="fa fa-trash" aria-hidden="true"></i> &nbsp; Delete</button>
+                    </div>
+                </div>
+
+
+
+            `); //add input box
+            
+            $('#productId_'+yy).select2();
+
+            // $('#productId').select2("refresh");
+
+
+        });
+
+
+        $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
+            e.preventDefault(); $(this).parent('div').parent('div').remove(); y--;
+        })
+    });
+5)vali-admin
+----------------------------------------------------------------
+	$today_date = date('Y-m-d');
+	$StaringDate = date($plan_subscription->created_at);
+	$planEndingDate = date("Y-m-d", strtotime(date("Y-m-d", strtotime($StaringDate)) . " + 1 year"));
+	$twoDayRemaining = date("Y-m-d", strtotime(date("Y-m-d", strtotime($planEndingDate)) . " - 2 days"));
+	$oneDayRemaining = date("Y-m-d", strtotime(date("Y-m-d", strtotime($planEndingDate)) . " - 1 days"));
+
+	$startDate = date("Y-m-d", strtotime($this->input->post('start')));  
+        $endDate = date("Y-m-d", strtotime($this->input->post('end')));  
+---------------------------------------------------------------------------------------------------------
+if($collectionByDate){
+   echo json_encode($collectionByDate);
+}else{
+  echo "0";
+}
+----------------------------------------------------------------------------
+http://sliceledger.com:2082/
+infogsq7
+-------------------------------------------------------------------------------------
+https://stackoverflow.com/questions/37545028/add-cc-and-bcc-in-php-mail
+-----------------------------------------------------------------------------------
+$view = $this->load->view('email_templates/email_verification',$result,TRUE );
+// print_r($view);die;
+// $this->email->from('info@sliceledger.com', 'DJ')
+$this->email->from('info@PueoAPP.com', 'Pueo DJ')
+// ->to($result->email_id)    
+->to($result->email_id)    
+->subject('Verify Email Id')    
+->message($view)
+// ->message('hghfi')
+->set_mailtype('html');
+
+$sent = $this->email->send();
+--------------------------------------------------
+https://www.codexworld.com/new-google-recaptcha-with-php/
+------------------------------------------------------------
+https://github.com/adonisjs/adonis-blog-demo
+---------------------------------------------------------
+https://scotch.io/courses/build-a-twitter-clone-with-adonis-and-vue/change-user-password
+--------------------------------------------
+https://codepen.io/Sp00ky/pen/PwLNbm/?editors=1010
+-----------------------------------------------------------------------------
+https://www.webslesson.info/2018/04/codeigniter-pdf-generation-using-dompdf.html
+-----------------------------------------------------------------
+https://www.itsolutionstuff.com/post/codeigniter-3-generate-pdf-from-view-using-dompdf-library-with-exampleexample.html
+----------------------------Pdf file in CI------------------------------------------------------
+$this->load->library('pdf');
+public function index()
+{
+
+
+// $data['customer_details'] = $this->htmltopdf_model->fetch_single_details($customer_id);
+// $this->load->view('htmltopdf', $data);
+
+$this->pdf->load_view('mypdf');
+$this->pdf->setPaper('A4', 'landscape');
+$this->pdf->render();
+
+$this->pdf->stream("welcome.pdf",array("Attachment"=>0));
+
+
+// $url = base_url().'/pdf_file';
+$url = $this->pdf->load_view('mypdf');
+// print_r($url);die;
+$img = './uploads/pdf/welcome1.pdf';
+
+file_put_contents($img, file_get_contents($url));
+} 
+-------------------------------------------------------------------------------------
+https://www.tutorialrepublic.com/codelab.php?topic=faq&file=javascript-get-native-image-size
+
+

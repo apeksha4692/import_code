@@ -1,0 +1,165 @@
+=======================================================================================
+ANANDDISH CPANEL 
+=======================================================================================
+anandisha.com/cpanel
+ 
+username: anandisha
+ 
+Password:- Jay$hreeRAM!@#789
+
+=======================================================================================
+162.241.174.22 SERVER DETAIL
+=======================================================================================
+URL      : https://162.241.174.22:2083/
+USERNAME : anandisha
+PASSWORD : L@iw5}l4j~Z4
+
+=======================================================================================
+3.128.89.55 SERVER DETAIL PHPMYADMIN
+=======================================================================================
+URL      : http://3.128.89.55/
+USERNAME : root
+PASSWORD : root
+
+=======================================================================================
+sliceledger
+=======================================================================================
+
+http://sliceledger.com/cpanel
+username:- infogsq7
+password:- WorkHard@#1357
+======================Paytab================================================================================
+	apekshamanoj@gmail.com
+	Apeksha@123
+===============Strip===================================
+	apkeshamajumdar@infograins.com
+	Appu123456789
+
+======================================================================================
+USERNAME   : slicelacer@sliceledger.com
+SERVER     : ftp.sliceledger.com
+FTP PORT   : 21
+PASSWORD   : bl]csts=kDR(
+=====================================================================================
+FTP Username: anandhisha@anandisha.com
+FTP server: ftp.anandisha.com
+FTP & explicit FTPS port:  21
+ password =d*sa*Fad4Gls
+=======================================================================================
+FTP Username: amazon_replica@anandisha.com
+FTP server: ftp.anandisha.com
+FTP & explicit FTPS port:  21
+password = hardwork@123
+=====================================================================================
+http://18.133.188.86/phpmyadmin/
+username: phpmyadmin
+password: 123456
+server-IP add:  18.133.188.86
+======================================================================================
+Easyclicks
+
+Instance ID
+i-054d60ed48ec058a1 (easyclickz)
+1. Open an SSH client.
+2. Locate your private key file. The key used to launch this instance is easyclickzkey.pem
+3. Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 server-key.pem
+4. Connect to your instance using its Public DNS:
+ ec2-18-133-188-86.eu-west-2.compute.amazonaws.com
+Example:
+1.  ssh -i "infograins_p.pem" ubuntu@ec2-18-133-188-86.eu-west-2.compute.amazonaws.com
+
+Database:-
+http://18.133.188.86/phpmyadmin/
+username: phpmyadmin
+password: 123456
+server-IP add:  18.133.188.86
+SSH access only this IP:- 103.83.252.42
+========================================================================
+[19/11/2020 1:20 PM] Ranjeet singh: Username infogb9g
+
+[19/11/2020 1:20 PM] Ranjeet singh: new pass:   Jay$hreeKri$hna@!@#$%^
+===========================================================================
+chmod 400 infograins_p.pem
+
+chmod 400 testkey.pemchmod 400 testkey.pem
+http://3.138.38.80/
+=======================================================
+ssh -i "infograins_p.pem" ubuntu@3.138.38.80
+
+ssh -i "testkey.pem" ubuntu@18.188.253.234
+
+
+
+======================bankereum detail==========================================================
+WHM ACCESS:- 
+https://162.241.126.154:2087/cpsess0654820913/scripts5/wwwacct
+root
+Bank!@#$%12345
+
+cPANEL aCCESS:-
+
+https://162.241.126.154:2083/cpsess3664880413/frontend/paper_lantern/index.html
+username:-  bankereum
+
+Password:- DuFr}4SVGVj7
+=============businessmart FTP===========================================================
+FTP Username: businessmart@anandisha.com
+FTP server: ftp.anandisha.com
+FTP & explicit FTPS port:  21
+Password: hardwork@123
+==============businessmart live FTP====================================================
+https://103.50.161.229:2083/
+ebusinessmart
+ram12345*qwe1ABC
+Ye Behru lal sir ka cpanel hai
+==================Cpanel Sponsorscope-====================================
+https://162.0.236.245:2083/logout/?locale=en
+sponsorscope
+Mnnznfjk9JhZwbWb4m
+======================JA===========================
+http://18.191.186.226/user
+Amazon server:
+User experiencias.ja.app@gmail.com
+ Pass: Ja1969app!
+===============Flock detail==========
+*Flock Password*
+Ape@123
+=============Water Hub Server==============================
+http://65.1.225.243/phpmyadmin/index.php?token=9ac6059bbad6d4ce7b27b3cbf5c569a5
+
+username :- root
+Password :- root@123
+
+ssh -i "water-hub-key.pem" ubuntu@65.1.225.243
+
+chmod 400 water-hub-key.pem
+==============Raise IT===============================
+http://client562.midwesterntechnology.net:2083/
+username: raiseit
+password: 1'dU(-\~&NqzLKU$2Ey$w
+=============Venhub==============================================
+Venhub Cpanel access
+https://nlls3.a2hosting.com:2083/
+username: veeramar
+password: v3N7ub@1
+================Metamask====================
+[25/02/2021 1:10 PM] Mohit Rathore: infomohitinfo@gmail.com
+
+[25/02/2021 1:10 PM] Mohit Rathore: mohitbth@#$1234
+==================React Code upload====================================
+check npm install and node install
+1)npm i
+2)npm start
+3)add SKIP_PREFLIGHT_CHECK=true in .env file ====if error comes
+4)npm run build
+5)sudo npm install pm2@latest -g
+6) $ pm2 start --name <app name> npm -- start (plexus)
+7)pm2 stop <app name> (plexus)
+
+$ pm2 start --name tradestreet npm -- start(terminal off kar ke bd bhi server chalta rahe )
+
+========================Awazon======================
+https://001447090335.signin.aws.amazon.com/console
+ranjeet
+mohit@1234

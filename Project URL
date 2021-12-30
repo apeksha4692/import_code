@@ -1,0 +1,308 @@
+=============INVENTORY(Liveserver)============================
+	URL = https://beebellmbnl.in/
+	Admin = https://beebellmbnl.in/admin/Auth
+	admin@gmail.com
+	12345678
+	SubAdmin = https://beebellmbnl.in/branch/Auth
+	i@yopmail.com
+	123456
+=============on_demand_medical============================
+	http://anandisha.com/on_demand_medical/admin/auth
+	adminn@yopmail.com
+	123456
+=============handyman============================
+	Admin URL = http://anandisha.com/handyman/auth
+	admin@gmail.com
+	123456
+=============freshious============================
+	URl = http://anandisha.com/freshious/
+
+	Admin URL = http://anandisha.com/freshious/auth
+	admin@gmail.com
+	123456
+
+=============Amazon Replica============================
+	Website 
+	URL= http://anandisha.com/amazon_replica/
+	Admin 
+	URL = http://anandisha.com/amazon_replica/admin/login
+	Email = amazone@yopmail.com
+	Password = 123456
+	Vendor
+	URL = http://anandisha.com/amazon_replica/vendor/login
+	Email = neetesh@yopmail.com
+	Password = 123456
+=============Amazon Replica live server============================
+	Website 
+	URL= http://3.80.187.130/amazon_replica/
+	Admin 
+	URL = http://3.80.187.130/amazon_replica/admin/login
+	Email = amazone@yopmail.com
+	Password = 123456
+	Vendor
+	URL = http://3.80.187.130/amazon_replica/vendor/login
+	Email = neetesh@yopmail.com
+	Password = 123456
+=============bus_tracking============================
+	*Bus Tracking Admin URL*
+		Admin URL =http://sliceledger.com/bus_tracking/admin/login
+		super_admin
+		123456
+	*Bus Tracking Subadmin URL*
+		Subadmin URL = http://sliceledger.com/bus_tracking/subadmin/login
+		Tina@123	
+		123456
+=============offerak============================
+	http://reverty.in/admin/login
+	admin@offerak.com
+	123456
+=============codereadysoftware============================
+	https://codereadysoftware.com/admin
+	admin@admin.com
+	123456
+=============water_hub============================
+	Anandisha Detail
+		https://anandisha.com/water_hub/admin/login
+		waterhub@yopmail.com
+		123456
+	3.138.38.80:4000 Detail
+		http://3.138.38.80:4000/water_hub/admin/login
+		waterhub@yopmail.com
+		123456
+	Server Detail
+		Admin URL = http://65.1.225.243/admin/login
+		waterhub@yopmail.com
+		123456
+=============job_portal============================
+	Anandisha Detail
+		https://anandisha.com/job_portal/admin/login
+		superadmin@yopmail.com
+		123456
+=============Jobportal(live)============================
+http://steelplantjobs.com/index.php/admin/login
+Email = superadmin@yopmail.com
+Password = 123456
+=============amit_jain============================
+	https://anandisha.com/amit_jain/index.php
+	admin
+	admin
+=============iHoop============================
+	URL = http://sliceledger.com/iHoop/index.php/home
+	username = ihoopteam
+	password = 123456
+=============easyclickz============================
+	Landling Page = http://easyclickz.com/
+	Admin URL = http://easyclickz.com/index.php/admin
+	Email = easyclickz@yopmail.com
+	Password = 123456
+=============ims============================
+	https://anandisha.com/ims/
+	admin
+	admin
+=============e-businessmart============================
+	Admin 
+	       URL = https://anandisha.com/businessmart/admin/login
+	      Email = superadmin@yopmail.com
+	      Password = 12345678
+	Service Provider 
+	       URL = https://anandisha.com/businessmart/service_provider/login
+	       Email = check@yopmail.com
+		Password = 12345678
+	AGENT
+		URL =https://anandisha.com/businessmart/agent/login
+		Email =a@yopmail.com
+		Password =12345678
+	Landling Page
+	https://anandisha.com/businessmart/
+=============Giegle============================
+	http://sliceledger.com/Giegle/auth/home
+	gieggle
+	123456
+
+	http://sliceledger.com/Giegle/auth/bussines/home
+	sagargaire@gmail.com
+	123456
+
+	http://anandisha.com/Giegle/
+=============pickdeli============================
+	http://anandisha.com/pickdeli/auth/home
+	gieggle
+	123456
+
+	http://anandisha.com/pickdeli/auth/bussines/home
+	sagargaire@gmail.com
+	123456
+
+	http://anandisha.com/pickdeli/
+=============p2excel============================
+	URL= https://anandisha.com/p2excel/
+	Admin URL =https://anandisha.com/p2excel/index.php/loginMe
+	admin@yopmail.com
+	123456
+=============spot_slot============================
+	https://anandisha.com/spot_slot/admin/login
+
+	admin@yopmail.com
+	12345678
+=============infograins============================
+	https://infograins.com/
+	wp-admin login-
+	info@infograins.com
+	infograins@12345
+=============BANKEREUM Live URL============================
+	URL =https://anandisha.com/bankereum/
+
+	Admin URL = https://anandisha.com/bankereum/auth/login
+	admin
+	123456789
+
+
+	URL = https://162.241.126.154/
+	Admin URL = https://162.241.126.154/auth/login
+	admin
+	123456789
+
+
+	URL = https://bankereum.xyz/
+	Admin URL = http://bankereum.xyz/auth/login
+	admin
+	123456789
+=============myhrms============================
+	http://myhrms.org/hr/
+
+	infograins
+	123456
+=============truckYaah============================
+	https://anandisha.com/truckYaah/public/admin/login
+	admin@admin.com
+	123456
+
+=============truckYaah live============================
+	https://truck-yeah.app/public/admin/login
+	truckyaah@yopmail.com
+	123456
+=============businessmart============================
+	E-Bussiness Mart
+	Admin 
+	       URL = https://anandisha.com/businessmart/admin/login
+	      Email = superadmin@yopmail.com
+	      Password = 12345678
+	Service Provider 
+	       URL = https://anandisha.com/businessmart/service_provider/login
+	       Email = check@yopmail.com
+		Password = 12345678
+	AGENT
+		URL =https://anandisha.com/businessmart/agent/login
+		Email =a@yopmail.com
+		Password =12345678
+	Landling Page
+	https://anandisha.com/businessmart/
+=============ebbicoin============================
+	URL = http://52.87.208.87/#/
+	Admin URL = http://52.87.208.87/#/admin
+	username = admin 
+	password =admin
+
+	Website URL
+	http://ebbicoin.com/
+	username = hemant8462
+	Password = 123456
+	Code = ICCMG4JTNKWO5WFC
+	Admin URL
+	http://ebbicoin.com/#/admin
+	admin
+	admin
+=============businessmart Live============================
+	E-Bussiness Mart
+	Admin
+	       URL = https://ebusinessmart.in/admin/login
+	      Email = superadmin@yopmail.com
+	      Password = 12345678
+	Service Provider 
+	       URL = https://ebusinessmart.in/service_provider/login
+	       Email = check@yopmail.com
+		Password = 12345678
+	AGENT
+		URL =https://ebusinessmart.in/agent/login
+		Email =a@yopmail.com
+		Password =12345678
+	Landling Page
+	https://ebusinessmart.in/
+=============Sponsorscope live============================
+	Sponsorscope
+		Demo Link https://162.0.236.245/
+		Admin Login Link: https://162.0.236.245/master
+		Admin ID:SponsorScope2021
+		Password:123456
+
+	Sponsorscope Live Server URL 
+		Link : http://sponsorscope.com/
+		Admin Login Link: http://sponsorscope.com/master
+		Admin ID:SponsorScope2021
+		Password:123456
+=============codereadysoftware============================
+	Website URL = https://codereadysoftware.com/
+
+	Admin URL = https://codereadysoftware.com/admin/index.php
+	Email = admin@admin.com
+	Password = 123456
+=============yanbank============================
+	http://anandisha.com/yanbank/backend/auth
+	admin@gmail.com
+	123456
+=============eatrewardth============================
+	URL = http://www.eatrewardth.com/admin/login
+	Email = admin@eatrewardth.com
+	Password = 123456
+=============mxdiamonds============================
+	Website 
+		Website = https://mxdiamonds.com/
+		Admin URL = https://mxdiamonds.com/site/admin/login
+		Email Id = info@mxdiamonds.com
+		Password = Mxdiamonds123$%^
+	
+	MX Diamond User Login
+		URL = https://mxdiamonds.com/auth/login
+		Email = cp@infograins.com
+		Password = 123456
+=============venhub============================
+	admin url	= http://venhub.co.uk/admin/auth
+	email 		= admin@gmail.com
+	password 	= 1234
+=============raiseit============================
+https://raiseit.app/public/admin/login
+admin@gmail.com
+123456
+=============tradestreet============================
+Web URL = http://3.138.38.80:3025/
+Admin URL = http://3.138.38.80:3025/admin/
+Username = admin@tradestreet.com
+Password = admin
+=============oio============================
+http://talkfort.com/guest
+admin@talkfort.com
+123456
+=============saidiwa(Rideshare)============================
+http://saidiwa.com/
+Admin URL = http://saidiwa.com/
+rideshare@yopmail.com
+654321
+
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+=============p2excel============================
+
+
+
+

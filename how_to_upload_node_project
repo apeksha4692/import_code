@@ -1,0 +1,46 @@
+=============How to Live Node project=================================
+- check npm install or not
+- check node install or not
+- create folder
+- after create folder than upload zip folder
+- than unzip folder
+- after unzip folder than create file with name *.env* file
+- after create file succesfully than add below line 
+	PORT=8026 (u can set port with server.Every project have different port number)
+	SKIP_PREFLIGHT_CHECK=true
+- after write above line than save file
+- than write command *npm i* in command line
+- after successfully run below command than write *npm start* to check project working properly or not (this step optional)
+- than write command *sudo npm install pm2@latest -g* (this command run when pm2 not install)
+- tha after sunccessfully install command than *$ pm2 start --name <folder name> npm -- start* 
+- pm2 is used to contionus run project after close terminal
+
+===========How to upload Node project in same folder with same port(update node code)============
+- Go to folder
+- write command *pm2 list* (after run this command u get all project name which is running in live server)
+- write command pm2 stop 1 (1 is the id which is show after run command pm2 list. You can replace 1 with your project id)
+- after stop successfully  u get pm2 list with status show status stop
+-  write command * netstat -lntp | grep node* with this command (we can check which port we running nor not. If we see port not showing than project successfully)
+- than check folder data *ls*
+- than delete all folder use command *sudo rm -rf *
+- than upload zip folder
+- than unzip folder
+- after unzip folder than create file with name *.env* file
+- after create file succesfully than add below line 
+	PORT=8026 (u can set port with server.Every project have different port number)
+	SKIP_PREFLIGHT_CHECK=true
+- after write above line than save file
+- than write command *npm i* in command line
+- after successfully run below command than write *npm start* to check project working properly or not (this step optional)
+- than write command *pm2 restart 1* (this command is restart that port which we stop port)
+- than write command *pm2 delete 1* (this command is delete port if port not start after restart port which we stop port)
+- than after delete succesfully than run command than *$ pm2 start --name <folder name> npm -- start* 
+
+
+
+
+
+
+
+
+
